@@ -1,0 +1,59 @@
+2022-12-02 23:07:34.274 [info] Extension host agent started.
+2022-12-02 23:07:34.975 [info] [127.0.0.1][2154e37b][ManagementConnection] New connection established.
+2022-12-02 23:07:35.002 [info] [127.0.0.1][841b1c21][ExtensionHostConnection] New connection established.
+2022-12-02 23:07:35.041 [info] [127.0.0.1][841b1c21][ExtensionHostConnection] <1304> Launched Extension Host Process.
+2022-12-02 23:07:44.684 [error] CodeExpectedError: Could not find pty on pty host
+    at d._throwIfNoPty (/home/eselidze2/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.updateTitle (/home/eselidze2/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:27:2931)
+    at Object.call (/home/eselidze2/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/eselidze2/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/eselidze2/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/eselidze2/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/eselidze2/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/eselidze2/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/eselidze2/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/eselidze2/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-02 23:07:45.086 [error] CodeExpectedError: Could not find pty on pty host
+    at d._throwIfNoPty (/home/eselidze2/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.updateIcon (/home/eselidze2/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:27:2993)
+    at Object.call (/home/eselidze2/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/eselidze2/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/eselidze2/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/eselidze2/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/eselidze2/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/eselidze2/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/eselidze2/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/eselidze2/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-02 23:08:02.089 [info] [127.0.0.1][2154e37b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-02 23:08:02.194 [info] [127.0.0.1][841b1c21][ExtensionHostConnection] <1304> Extension Host Process exited with code: 0, signal: null.
+2022-12-02 23:08:02.197 [info] Last EH closed, waiting before shutting down
+2022-12-02 23:08:17.965 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2022-12-02 23:08:17.965 [info] Cancelling previous shutdown timeout
+2022-12-02 23:08:18.444 [info] [127.0.0.1][9fc0da33][ManagementConnection] New connection established.
+2022-12-02 23:08:18.445 [info] [127.0.0.1][e37630e0][ExtensionHostConnection] New connection established.
+2022-12-02 23:08:18.460 [info] [127.0.0.1][e37630e0][ExtensionHostConnection] <1442> Launched Extension Host Process.
+2022-12-02 23:13:17.967 [info] New EH opened, aborting shutdown
+2022-12-02 23:19:36.521 [info] [127.0.0.1][9fc0da33][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-02 23:19:36.589 [info] [127.0.0.1][e37630e0][ExtensionHostConnection] <1442> Extension Host Process exited with code: 0, signal: null.
+2022-12-02 23:19:36.589 [info] Last EH closed, waiting before shutting down
+2022-12-02 23:19:47.074 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2022-12-02 23:19:47.074 [info] Cancelling previous shutdown timeout
+2022-12-02 23:19:47.656 [info] [127.0.0.1][9c975d6f][ManagementConnection] New connection established.
+2022-12-02 23:19:47.712 [info] [127.0.0.1][1d54d4b1][ExtensionHostConnection] New connection established.
+2022-12-02 23:19:47.730 [info] [127.0.0.1][1d54d4b1][ExtensionHostConnection] <1801> Launched Extension Host Process.
+2022-12-02 23:20:07.494 [info] [127.0.0.1][9c975d6f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-02 23:20:07.549 [info] [127.0.0.1][1d54d4b1][ExtensionHostConnection] <1801> Extension Host Process exited with code: 0, signal: null.
+2022-12-02 23:20:07.550 [info] Cancelling previous shutdown timeout
+2022-12-02 23:20:07.550 [info] Last EH closed, waiting before shutting down
+2022-12-02 23:20:15.924 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2022-12-02 23:20:15.924 [info] Cancelling previous shutdown timeout
+2022-12-02 23:20:17.274 [info] [127.0.0.1][6fb929d2][ManagementConnection] New connection established.
+2022-12-02 23:20:17.280 [info] [127.0.0.1][ad765a21][ExtensionHostConnection] New connection established.
+2022-12-02 23:20:17.296 [info] [127.0.0.1][ad765a21][ExtensionHostConnection] <1935> Launched Extension Host Process.
+2022-12-02 23:25:15.925 [info] New EH opened, aborting shutdown
